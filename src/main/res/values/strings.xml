@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">"微信"</string>
+    <string name="app_message">"消息"</string>
+    <string name="app_contact">"通讯录"</string>
+    <string name="app_friend">"朋友"</string>
+    <string name="app_setting">"设置"</string>
+
+</resources>
