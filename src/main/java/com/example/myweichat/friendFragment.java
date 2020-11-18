@@ -1,6 +1,5 @@
 package com.example.myweichat;
 
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +10,7 @@ import android.app.Fragment;
 /**
  * A simple {@link Fragment} subclass.
  */
+
 public class friendFragment extends Fragment {
 
 
