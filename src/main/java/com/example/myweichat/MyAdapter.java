@@ -2,11 +2,9 @@ package com.example.myweichat;
 
 import android.app.Activity;
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,14 +20,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ContactViewHolder>
     private View view;
     private List<String> mList = new ArrayList<>();
     private int[] mId;
-   // private OnItemClickListener mListener;
 
-//    public MyAdapter(Context context, OnItemClickListener listener) {
-//        mContext = context;
-//        mListener = listener;
-//    }
 
-    public MyAdapter(Activity activity,Context context) {
+    public MyAdapter(Context context) {
         mContext = context;
     }
 
@@ -99,9 +92,5 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ContactViewHolder>
 
     }
 
-
-//    public interface OnItemClickListener {
-//        void onItemClick(String content);
-//    }
 
 }

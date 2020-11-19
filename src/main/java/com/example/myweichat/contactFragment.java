@@ -72,7 +72,7 @@ public class contactFragment extends Fragment {
     }
 
     private void initView() {
-        MyAdapter adapter = new MyAdapter(getActivity(),getContext());
+        MyAdapter adapter = new MyAdapter(getContext());
         RecyclerView RecyclerView = view.findViewById(R.id.click_2);
 
         ItemTouchHelper.Callback callback = new swipeItemTouchHelper(adapter);
@@ -85,6 +85,9 @@ public class contactFragment extends Fragment {
 
         adapter.setClickDataList(mylist,imageId);
 
+
+
+
+
     }
 }
-
